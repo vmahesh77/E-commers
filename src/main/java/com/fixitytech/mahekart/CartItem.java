@@ -1,0 +1,24 @@
+package com.fixitytech.mahekart;
+
+
+
+public class CartItem extends Item{
+    
+    int quantity;
+
+
+
+   public int getQuantity() {
+        return quantity;
+    }
+
+
+
+   public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+
+
+   
+}
